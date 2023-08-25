@@ -1,0 +1,13 @@
+Requirements:
+
+Have a board that contains all of the values possible on a chessboard [indexes from 0-7]
+    This board may be created in a class
+Have a knight class
+    Initialized
+    This class contains a self.knight_moves method
+        Takes in two arrays, starting_point and ending_point
+        This method uses BFS to find the shortest distance from square => square
+        Then, it returns this sequence
+Have a method in main called knight_moves
+    This method takes in two arrays, starting_point and ending_point
+    Calls Knight.knight_moves(starting_point, ending_point)
